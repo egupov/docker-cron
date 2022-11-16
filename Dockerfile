@@ -1,5 +1,4 @@
 FROM ubuntu:latest
-MAINTAINER docker@ekito.fr
 
 # Add crontab file in the cron directory
 ADD crontab /etc/cron.d/hello-cron
